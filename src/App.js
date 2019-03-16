@@ -2,6 +2,14 @@ import React, { Component } from "react";
 import "./App.css";
 import Week1 from "./components/week1";
 import Week2 from "./components/week2";
+import Week3 from "./components/week3";
+import Week4 from "./components/week4";
+import Week5 from "./components/week5";
+import Week6 from "./components/week6";
+import Week7 from "./components/week7";
+import Week8 from "./components/week8";
+import Week9 from "./components/week9";
+import BackButton from "./components/backBtn";
 
 class App extends Component {
   constructor(props) {
@@ -12,12 +20,15 @@ class App extends Component {
   }
 
   handleClick = e => {
-    console.log(e.target.value);
-
     this.setState({
       week: Number(e.target.value)
     });
-    console.log(this.state);
+  };
+
+  reset = () => {
+    this.setState({
+      week: 0
+    });
   };
 
   render() {
@@ -62,7 +73,22 @@ class App extends Component {
             <Week1 />
           ) : this.state.week === 2 ? (
             <Week2 />
+          ) : this.state.week === 3 ? (
+            <Week3 />
+          ) : this.state.week === 4 ? (
+            <Week4 />
+          ) : this.state.week === 5 ? (
+            <Week5 />
+          ) : this.state.week === 6 ? (
+            <Week6 />
+          ) : this.state.week === 7 ? (
+            <Week7 />
+          ) : this.state.week === 8 ? (
+            <Week8 />
+          ) : this.state.week === 9 ? (
+            <Week9 />
           ) : null}
+          {this.state.week !== 0 && <BackButton onClick={this.reset} />}
         </header>
       </div>
     );
