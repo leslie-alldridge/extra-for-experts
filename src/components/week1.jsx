@@ -19,6 +19,8 @@ const week1 = () => {
           games and /help to display a help page.
         </li>
         <hr />
+        <li>Use ES6 syntax comfortably.</li>
+        <hr />
         <li>
           Create an Express web server (any context is fine) but it must contain
           routes that match the following layouts.
