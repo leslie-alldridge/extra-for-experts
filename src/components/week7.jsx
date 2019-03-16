@@ -3,32 +3,28 @@ import React from "react";
 const Week7 = () => {
   return (
     <div>
-      <h2>Week 1 Bonus Exercises</h2>
+      <h2>Week 7 Bonus Exercises</h2>
       <p>
-        Week one is a lot of Javascript and in some cases basic Express routing.
+        By now you should be confident with the structure of full stack web
+        applications.
       </p>
       <p>
-        Before practising, you should have all exercises for the week completed.
-        Following this you can:
+        You'll learn authentication this week, so the challenge is to build an
+        application with auth and user specific private information.
       </p>
       <ul>
         <li>
-          Create an Express server with routes. So that the route /game/1
-          returns the score of the first game in bowling. /game/2 returns the
-          second, and so on. From there, you can add /games which will show all
-          games and /help to display a help page.
+          You can choose the topic, but this app should allow users to see what
+          other users post / do (e.g. public profiles or comments). Users should
+          also be able to store private information (e.g. notes or user
+          settings). Ensure the CRUD actions are used.
         </li>
         <hr />
         <li>
-          Create an Express web server (any context is fine) but it must contain
-          routes that match the following layouts.
-          <br /> /names <br />
-          /name/:id
-          <br />
-          /name/edit/:id
-          <br /> <br />
-          and a bonus....to show names in a particular region and suburb <br />
-          /name/:region/:suburb
+          If you've already achieved the above, the final challenge is to do
+          this all again but with a different technology. Could you remove Knex
+          and use MogoDB or Firebase? Is there a CSS framework or React package
+          you've wanted to use?
         </li>
       </ul>
     </div>
