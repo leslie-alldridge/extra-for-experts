@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Week1 from "./components/week1";
+import Week2 from "./components/week2";
 
 class App extends Component {
   constructor(props) {
@@ -57,7 +58,11 @@ class App extends Component {
               </ul>
             </div>
           )}
-          {this.state.week === 1 ? <Week1 /> : null}
+          {this.state.week === 1 ? (
+            <Week1 />
+          ) : this.state.week === 2 ? (
+            <Week2 />
+          ) : null}
         </header>
       </div>
     );

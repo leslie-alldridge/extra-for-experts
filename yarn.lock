@@ -7906,7 +7906,7 @@ react-dev-utils@^8.0.0:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@16.8.4:
+react-dom@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.4.tgz#1061a8e01a2b3b0c8160037441c3bf00a0e3bc48"
   integrity sha512-Ob2wK7XG2tUDt7ps7LtLzGYYB6DXMCLj0G5fO6WeEICtT4/HdpOi7W/xLzZnR6RCG1tYza60nMdqtxzA8FaPJQ==
@@ -7915,6 +7915,13 @@ react-dom@16.8.4:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.13.4"
+
+react-embed-gist@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/react-embed-gist/-/react-embed-gist-1.0.7.tgz#1ba3e337b5048fd847918ad913d8807e6fd4e624"
+  integrity sha512-Tej3z5DhxEtxsiCWUZZeRje6Barfx/c1QT1URuPqV0H6/T5vIfQLOM5rUNJ1FeSpKZQ7XovlcBQJ1ZzBGTEkfg==
+  dependencies:
+    react "^16.2.0"
 
 react-error-overlay@^5.1.4:
   version "5.1.4"
@@ -7980,7 +7987,7 @@ react-scripts@2.1.8:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.8.4:
+react@^16.2.0, react@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.4.tgz#fdf7bd9ae53f03a9c4cd1a371432c206be1c4768"
   integrity sha512-0GQ6gFXfUH7aZcjGVymlPOASTuSjlQL4ZtVC5YKH+3JL6bBLCVO21DknzmaPlI90LN253ojj02nsapy+j7wIjg==

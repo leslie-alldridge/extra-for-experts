@@ -18,6 +18,7 @@ const week1 = () => {
           second, and so on. From there, you can add /games which will show all
           games and /help to display a help page.
         </li>
+        <hr />
         <li>
           Create an Express web server (any context is fine) but it must contain
           routes that match the following layouts.
