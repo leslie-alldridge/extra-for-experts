@@ -21,6 +21,11 @@ const Week7 = () => {
         </li>
         <hr />
         <li>
+          Write tests until you gain 100% coverage on a React, Redux full stack
+          application. You can use jest --coverage to see your coverage.
+        </li>
+        <hr />
+        <li>
           If you've already achieved the above, the final challenge is to do
           this all again but with a different technology. Could you remove Knex
           and use MogoDB or Firebase? Is there a CSS framework or React package
