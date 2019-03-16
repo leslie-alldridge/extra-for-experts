@@ -15,7 +15,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      week: 0
+      week: 0,
+      note: true
     };
   }
 
@@ -31,9 +32,27 @@ class App extends Component {
     });
   };
 
+  handleNote = () => {
+    this.setState({
+      note: false
+    });
+  };
+
   render() {
     return (
       <div className="App">
+        {this.state.note !== false && (
+          <div>
+            <p>
+              Note: If you need clarification on these exercises or wish to
+              discuss potential answers please seek help from your classmates
+              first. Following that, contact me any time on Slack (Leslie
+              Alldridge) and I'll do my best to point you in the right
+              direction.
+            </p>
+            <button onClick={this.handleNote}>close</button>
+          </div>
+        )}
         <header className="App-header">
           {this.state.week === 0 && (
             <div>

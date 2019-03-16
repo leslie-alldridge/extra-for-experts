@@ -16,6 +16,7 @@ const Week3 = () => {
           have an add user form, edit user form, delete user button and receive
           all users button.
         </li>
+        <hr />
         <li>
           If you've completed the exercise above, you're well prepared and can
           relax now.

@@ -3,34 +3,16 @@ import React from "react";
 const Week8 = () => {
   return (
     <div>
-      <h2>Week 1 Bonus Exercises</h2>
+      <h2>Week 8 Bonus Exercises</h2>
       <p>
-        Week one is a lot of Javascript and in some cases basic Express routing.
+        Week eight is half final projects but we still have a few days
+        beforehand.
       </p>
       <p>
-        Before practising, you should have all exercises for the week completed.
-        Following this you can:
+        The challenge for this week is to code a project that solves a problem.
+        Developers who code for themselves only get so far, whereas developers
+        who code for others, go much further.
       </p>
-      <ul>
-        <li>
-          Create an Express server with routes. So that the route /game/1
-          returns the score of the first game in bowling. /game/2 returns the
-          second, and so on. From there, you can add /games which will show all
-          games and /help to display a help page.
-        </li>
-        <hr />
-        <li>
-          Create an Express web server (any context is fine) but it must contain
-          routes that match the following layouts.
-          <br /> /names <br />
-          /name/:id
-          <br />
-          /name/edit/:id
-          <br /> <br />
-          and a bonus....to show names in a particular region and suburb <br />
-          /name/:region/:suburb
-        </li>
-      </ul>
     </div>
   );
 };
