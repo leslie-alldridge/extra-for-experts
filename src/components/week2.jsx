@@ -16,6 +16,8 @@ const week2 = () => {
           week one - so that the right data appears on your webpages.
         </li>
         <hr />
+        <li>Confidently use post requests from html forms</li>
+        <hr />
         <li>
           Create a complex data structure and selectively render the data based
           on which page the user is viewing. For example: <br />
