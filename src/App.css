@@ -31,3 +31,8 @@
     transform: rotate(360deg);
   }
 }
+
+#listItem:hover {
+  cursor: pointer;
+  color: red;
+}
